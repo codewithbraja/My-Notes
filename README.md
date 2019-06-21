@@ -14,19 +14,26 @@ All Day to Day Interview Preparation Notes.
 		return i * j;  
 		}  
 		} 
-<br/>
+
 <B>Why Singleton pattern have private constructor and sealed class</B>
 Ans:Bcz private constructor restrict to create object of the class outside of the class.
+<br/>
 Class A
+<br/>
 {
- private A()
- {}
- Class B:A
- {}
+<br/>
+  private A()
+ <br/>
+  {}
+ <br/>
+  Class B:A
+ <br/>
+  {}
+ <br/>
 }
+<br/>
 In this example,we can create object of B which internally create object of A.
 To Restrict inheritance as well ,we can make class A sealed.
-<br/>
 <br/>
 <B>SQL Functions</B>
 <br/>
