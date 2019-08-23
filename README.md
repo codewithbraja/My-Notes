@@ -60,6 +60,5 @@ o/p: BOYs I Love u..
 <B>Read from Excel using OLEDB</B>
 "Select * from [Job Data$A2:BV500] Where [Job Cycle] in ('Annual','Daily','Quarterly','Weekly')"
 </br>
-@"SELECT [#] AS SNO,Iif(LEFT([Package], 1)='P', LEFT([Package], 3), '000') AS [PackageStandalone ],";
-                [PackagesForms$] Where [Package] is not null"
+@"SELECT [#] AS SNO,Iif(LEFT([Package], 1)='P', LEFT([Package], 3), '000') AS [PackageStandalone ] from [PackagesForms$] Where [Package] is not null"
 <br/>The Above method take first left character.
