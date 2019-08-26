@@ -63,3 +63,8 @@ o/p: BOYs I Love u..
 </br>
 @"SELECT [#] AS SNO,Iif(LEFT([Package], 1)='P', LEFT([Package], 3), '000') AS [PackageStandalone ] from [PackagesForms$] Where [Package] is not null"
 <br/>The Above method take first left character.
+<br/>
+Agile Work Flow
+<br/>
+EPIC=>Features=>Stories
+<br/>
