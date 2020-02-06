@@ -2,6 +2,14 @@ Feature of c#3
 ------------------
 Extension Method.
 Partial Method.
+ The declaration of the partial method must begin with partial modifier.
+ The partial method may contain ref.
+ The partial method does not contain out parameters.
+ It is implicitly private method.
+ It can be a static method.
+ Partial method is generic.
+ It can have only void return type.
+ A partial method is created only in partial class or in partial struct.
 ==========================
 Feature of c#4
 --------------------
