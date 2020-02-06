@@ -6,7 +6,11 @@ Partial Method.
 Feature of c#4
 --------------------
 CoVariance/ContraVariance
-Indexed Properties
+Indexed Properties/Indexer in C#
+     ->An indexer is same as property except that it defined with this keyword with square bracket that takes paramter.
+     ->Indexer can be override by having different types of parameters.
+     ->Ref and out parameter with the indexer is not supported.
+     ->Indexer can be included as an interface member.
 ============================
 
 
