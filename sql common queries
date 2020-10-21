@@ -1,0 +1,14 @@
+Write an sql query to prepare organizational hierarchy.
+==========================================================
+
+WITH MyCTE
+AS ( SELECT EmpID, FirstName, LastName, ManagerID
+FROM Employee
+WHERE ManagerID IS NULL
+UNION ALL
+SELECT EmpID, FirstName, LastName, ManagerID
+FROM Employee
+INNER JOIN MyCTE ON Employee.ManagerID = MyCTE.EmpID
+WHERE Employee.ManagerID IS NOT NULL )
+SELECT *
+FROM MyCTE
