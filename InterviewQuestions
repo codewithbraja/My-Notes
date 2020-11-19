@@ -55,6 +55,13 @@ Creational Patterns: These design patterns provide ways to create objects while 
 Structural Patterns: These design patterns deal with class and object composition. 
                      The concept of inheritance is used to compose interfaces and define ways to compose objects to obtain new functionality.
 Behavioral Patterns: These design patterns are specifically concerned with communication between objects.
+SOLID Principle:-
+===========================================
+S: Single Responsibility Principle (SRP)
+O: Open closed Principle (OSP)
+L: Liskov substitution Principle (LSP)
+I: Interface Segregation Principle (ISP)
+D: Dependency Inversion Principle (DIP)
 SQL Server
 ============
  ACID (Atomicity, Consistency, Isolation, and Durability)
