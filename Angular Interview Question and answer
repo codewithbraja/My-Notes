@@ -1,0 +1,5 @@
+There are several ways how Angular components can pass data around
+Using @Input and @Output
+By injecting parent component through constructor or child components through @ViewChild, @ViewChildren, @ContentChild, @ContentChildren and directly calling component’s API
+Using services (this covers state management libraries like ngrx)
+Using router parameters
