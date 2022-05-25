@@ -1,0 +1,10 @@
+display content of the file
+Get-Content -Path ./myfile.xml 
+//replace text in a file
+$path = "c:\Users\$($env:username)\desktop\VPN.txt" 
+(Get-Content $path) -replace "user1",$env:username | out-file $path
+
+
+
+$path = "C:\Users\BRAJA\Desktop\myfile.xml" 
+(Get-Content $path) -replace "#{password}#","12345" | out-file $path
