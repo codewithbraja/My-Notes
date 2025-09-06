@@ -65,3 +65,14 @@ D: Dependency Inversion Principle (DIP)
 SQL Server
 ============
  ACID (Atomicity, Consistency, Isolation, and Durability)
+====================
+Entity Framework
+====================
+Discuss strategies for handling large datasets in EF Core.
+When dealing with large datasets in EF Core, consider the following strategies:
+
+Pagination: Retrieve data in manageable chunks using methods like Skip() and Take() to limit the amount of data loaded at once.
+Asynchronous Queries: Use asynchronous methods (e.g., ToListAsync()) to avoid blocking the main thread and improve scalability.
+Projection: Select only the necessary fields instead of loading entire entities, reducing memory usage.
+Indexing: Ensure that the database has appropriate indexes to speed up data retrieval operations.
+Batch Processing: Process data in batches to reduce the number of database operations and manage resource usage effectively.
